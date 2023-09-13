@@ -1,0 +1,155 @@
+#skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+}
+.skills-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  padding: 60px 30px;
+}
+.skills-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills-title h2 {
+  width: max-content;
+  font-size: 26px;
+  padding: 10px 0;
+  border-bottom: 3px solid #0a2a3a;
+}
+.card {
+  position: relative;
+  width: 150px;
+  background: linear-gradient(0deg, #0a2a3a, #222, #343434);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  pointer-events: none;
+  z-index: 1;
+}
+.percent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #000;
+  background: #222;
+  z-index: 1000;
+}
+.percent .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.percent .num h2 {
+  color: #c5d2de;
+  font-weight: 700;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.card:hover .percent .num h2 {
+  color: #fff;
+  font-size: 40px;
+}
+.percent .num h2 span {
+  color: #c5d2de;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.card:hover .percent .num h2 span {
+  color: #fff;
+}
+.text {
+  position: relative;
+  color: #777;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.card:hover .text {
+  color: #fff;
+}
+.percent svg {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+}
+.percent svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+circle:nth-child(2) {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+}
+.card:nth-child(1) svg circle:nth-child(2) {
+  /* stroke-dashoffset: calc(300 - (300 * 90) / 100); */
+  stroke: #c5d2de;
+}
+
+.skills-list {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+@media (max-width: 1199px) {
+  .skills-container {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+  }
+  .skills-title {
+    padding: 0 20px;
+  }
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    width: 90%;
+    gap: 30px;
+    align-items: center;
+    /* margin-left: 10px ; */
+  }
+}
