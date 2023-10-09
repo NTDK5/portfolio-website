@@ -18,14 +18,6 @@ import "aos/dist/aos.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => {
-  const [activeSection, setActiveSection] = useState("");
-
-  const handleLinkClick = (sectionId) => {
-    setActiveSection(sectionId);
-    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-    // document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-  };
-
   const [menu, togglemenu] = useState(false);
   useEffect(() => {
     AOS.init();

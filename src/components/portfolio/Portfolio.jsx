@@ -51,7 +51,7 @@ const Portfolio = () => {
           >
             <img src="./assets/img/movie-app.png" alt="" />
             <div className="portfolio-link">
-              <a href="https://next-js-movie-app-omega.vercel.app/movies/latest_movies">
+              <a href="https://filmnet-drab.vercel.app/">
                 <FaPlus />
               </a>
               <a href="">
