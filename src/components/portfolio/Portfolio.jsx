@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import { FaPlus, FaLink } from "react-icons/fa";
+import { FaPlus, FaLink, FaEye, FaVoteYea } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -31,12 +31,63 @@ const Portfolio = () => {
             data-aos-delay="300"
             data-aos-offset="50"
           >
+            <img src="./assets/img/eccomerce_client.png" alt="" />
+            <div className="portfolio-link">
+              <a href="https://ecommerce-client-fmo2.onrender.com/">
+                <FaEye />
+              </a>
+              <a href="https://github.com/NTDK5/Ecommerce_Client">
+                <FaLink />
+              </a>
+            </div>
+          </div>
+
+          <div
+            className="portfolio-item"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            data-aos-offset="50"
+          >
+            <img src="./assets/img/eccomerce_admin.png" alt="" />
+            <div className="portfolio-link">
+              <a href="https://ecommerce-admin-3zu5.onrender.com">
+                <FaEye />
+              </a>
+              <a href="https://github.com/NTDK5/Eccommerce_admin">
+                <FaLink />
+              </a>
+            </div>
+          </div>
+
+          <div
+            className="portfolio-item"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            data-aos-offset="50"
+          >
+            <img src="./assets/img/eccomerce_backend.png" alt="" />
+            <div className="portfolio-link">
+              <a href="https://github.com/NTDK5/Ecommerce_Backend">
+                <FaLink />
+              </a>
+            </div>
+          </div>
+
+          <div
+            className="portfolio-item"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            data-aos-offset="50"
+          >
             <img src="./assets/img/Recipe.png" alt="" />
             <div className="portfolio-link">
               <a href="https://mern-recipe-app-xr40.onrender.com/">
-                <FaPlus />
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/mern-recipe-app-frontend">
                 <FaLink />
               </a>
             </div>
@@ -52,9 +103,9 @@ const Portfolio = () => {
             <img src="./assets/img/movie-app.png" alt="" />
             <div className="portfolio-link">
               <a href="https://filmnet-drab.vercel.app/">
-                <FaPlus />
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/filmnet">
                 <FaLink />
               </a>
             </div>
@@ -70,9 +121,9 @@ const Portfolio = () => {
             <img src="./assets/img/portfolio.png" alt="" />
             <div className="portfolio-link">
               <a href="https://ntdk5.github.io/react-portfolio/">
-                <FaPlus />
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/react-portfolio">
                 <FaLink />
               </a>
             </div>
@@ -88,9 +139,9 @@ const Portfolio = () => {
             <img src="./assets/img/React-form.png" alt="" />
             <div className="portfolio-link">
               <a href="https://ntdk5.github.io/react-form/">
-                <FaPlus />
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/react-form">
                 <FaLink />
               </a>
             </div>
@@ -103,12 +154,12 @@ const Portfolio = () => {
             data-aos-delay="300"
             data-aos-offset="50"
           >
-            <img src="./assets/img/portfolio.png" alt="" />
+            <img src="./assets/img/mickias_girma.png" alt="" />
             <div className="portfolio-link">
-              <a href="">
-                <FaPlus />
+              <a href="https://mickias-portfolio.netlify.app/">
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/Mickias-Girma">
                 <FaLink />
               </a>
             </div>
@@ -123,10 +174,10 @@ const Portfolio = () => {
           >
             <img src="./assets/img/qrcode.png" alt="" />
             <div className="portfolio-link">
-              <a href="">
-                <FaPlus />
+              <a href="https://ntdk5.github.io/QR-code-generator/">
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/QR-code-generator">
                 <FaLink />
               </a>
             </div>
@@ -142,7 +193,7 @@ const Portfolio = () => {
             <img src="./assets/img/gym.png" alt="" />
             <div className="portfolio-link">
               <a href="https://NTDK5.github.io/html-gym-website/">
-                <FaPlus />
+                <FaEye />
               </a>
               <a href="https://github.com/nati2345/html-gym-website">
                 <FaLink />
@@ -161,7 +212,7 @@ const Portfolio = () => {
             <div className="portfolio-link">
               <a href="https://NTDK5.github.io/react-form/">
                 {" "}
-                <FaPlus />
+                <FaEye />
               </a>
               <a href="https://ntdk5.github.io/react-portfolio/">
                 <FaLink />
@@ -178,10 +229,10 @@ const Portfolio = () => {
           >
             <img src="./assets/img/cusine.png" alt="" />
             <div className="portfolio-link">
-              <a href="">
-                <FaPlus />
+              <a href="https://ntdk5.github.io/Ethiopian-Cuisine-and-Cultural-Hub/">
+                <FaEye />
               </a>
-              <a href="">
+              <a href="https://github.com/NTDK5/Ethiopian-Cuisine-and-Cultural-Hub">
                 <FaLink />
               </a>
             </div>
