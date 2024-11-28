@@ -46,7 +46,7 @@ const Services = () => {
               <div className="description">
                 <h2>Web Development and Design</h2>
                 <p>
-                  We offer professional web development and design services,
+                  I offer professional web development and design services,
                   creating visually stunning and functional websites.{" "}
                 </p>
               </div>
@@ -65,7 +65,7 @@ const Services = () => {
               <div className="description">
                 <h2>Website Maintenance and Support:</h2>
                 <p>
-                  We provide regular updates, bug fixes, and security
+                  I provide regular updates, bug fixes, and security
                   enhancements to keep your site running flawlessly.
                 </p>
               </div>
@@ -84,7 +84,7 @@ const Services = () => {
               <div className="description">
                 <h2>E-commerce Development</h2>
                 <p>
-                  Our e-commerce development solutions empower businesses to
+                  My e-commerce development solutions empower businesses to
                   establish a robust online presence and drive sales.
                 </p>
               </div>
@@ -103,7 +103,7 @@ const Services = () => {
               <div className="description">
                 <h2>Custom Web Application Development</h2>
                 <p>
-                  With our custom web application development services, we
+                  With my custom web application development services, we
                   transform your unique business ideas into reality.{" "}
                 </p>
               </div>
@@ -122,7 +122,7 @@ const Services = () => {
               <div className="description">
                 <h2>Website Performance Optimization</h2>
                 <p>
-                  Our website performance optimization services ensure that your
+                  My website performance optimization services ensure that your
                   site loads quickly and efficiently. .
                 </p>
               </div>
@@ -141,7 +141,7 @@ const Services = () => {
               <div className="description">
                 <h2>Responsive Web Design</h2>
                 <p>
-                  We specialize in creating responsive web designs that adapt
+                  I specialize in creating responsive web designs that adapt
                   flawlessly to various screen sizes and devices.
                 </p>
               </div>

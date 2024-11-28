@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./home.css";
 import {
   FaBars,
@@ -19,13 +19,33 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => {
   const [menu, togglemenu] = useState(false);
+  const headerRef = useRef(null);
+
   useEffect(() => {
     AOS.init();
+
+    // Event listener to handle clicks outside the header
+    const handleClickOutside = (event) => {
+      if (headerRef.current && !headerRef.current.contains(event.target)) {
+        togglemenu(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Clean up the event listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   return (
     <>
-      <div className={menu ? "toggle-header" : "header"} id="header">
+      <div
+        className={menu ? "toggle-header" : "header"}
+        id="header"
+        ref={headerRef}
+      >
         <div className="profile">
           <img src="assets/img/pro.jpg" alt="" />
           <h1 className="text-light">Natan Tamiru</h1>

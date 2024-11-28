@@ -24,6 +24,40 @@ const Portfolio = () => {
           </p>
         </div>
         <div className="portfolio-list">
+        <div
+            className="portfolio-item"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            data-aos-offset="50"
+          >
+            <img src="./assets/img/mickias_girma.png" alt="" />
+            <div className="portfolio-link">
+              <a href="https://mickias-portfolio.netlify.app/">
+                <FaEye />
+              </a>
+              <a href="https://github.com/NTDK5/Mickias-Girma">
+                <FaLink />
+              </a>
+            </div>
+          </div>
+          <div
+            className="portfolio-item"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            data-aos-offset="50"
+          >
+            <img src="./assets/img/Dorze Tours.png" alt="Dorze Tours Mern Project" />
+            <div className="portfolio-link">
+              <a href="https://dorze-tour.vercel.app/">
+                <FaEye />
+              </a>
+              <a href="https://github.com/NTDK5/Dorze_Tours_Mern_Project">
+                <FaLink />
+              </a>
+            </div>
+          </div>
           <div
             className="portfolio-item"
             data-aos="fade-up"
@@ -147,23 +181,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div
-            className="portfolio-item"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="300"
-            data-aos-offset="50"
-          >
-            <img src="./assets/img/mickias_girma.png" alt="" />
-            <div className="portfolio-link">
-              <a href="https://mickias-portfolio.netlify.app/">
-                <FaEye />
-              </a>
-              <a href="https://github.com/NTDK5/Mickias-Girma">
-                <FaLink />
-              </a>
-            </div>
-          </div>
+
 
           <div
             className="portfolio-item"

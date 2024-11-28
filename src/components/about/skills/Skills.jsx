@@ -16,13 +16,18 @@ const Skills = () => {
           </p>
         </div>
         <div className="skills-list">
-          <ProgressBar title="Html" percentage={90} />
-          <ProgressBar title="css" percentage={90} />
-          <ProgressBar title="javascript" percentage={90} />
-          <ProgressBar title="React" percentage={90} />
+          <ProgressBar title="Html" percentage={94} />
+          <ProgressBar title="css" percentage={95} />
+          <ProgressBar title="javascript" percentage={98} />
+          <ProgressBar title="React" percentage={94} />
           <ProgressBar title="Nextjs" percentage={85} />
-          <ProgressBar title="Node" percentage={80} />
-          <ProgressBar title="Mern Stack" percentage={75} />
+          <ProgressBar title="Node" percentage={89} />
+          <ProgressBar title="Mern Stack" percentage={85} />
+          <ProgressBar title="Python" percentage={89} />
+          <ProgressBar title="PostgreSQL" percentage={92} />
+          <ProgressBar title="Typescript" percentage={88} />
+          <ProgressBar title="Flutter" percentage={82} />
+          <ProgressBar title="Figma" percentage={90} />
         </div>
       </div>
     </section>

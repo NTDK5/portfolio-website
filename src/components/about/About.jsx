@@ -23,16 +23,14 @@ const About = () => {
               websites, I strive to deliver exceptional user experiences and
               bring ideas to life through code. What sets me apart is my
               dedication to understanding clients' needs and translating them
-              into innovative, tailor-made solutions. I believe that effective
-              communication and collaboration are key to delivering successful
-              projects. By combining my technical expertise with a keen eye for
+              into innovative, tailor-made solutions. By combining my technical expertise with a keen eye for
               design, I create websites that not only function flawlessly but
               also captivate users with their aesthetics.
             </p>
           </div>
           <div className="about-content">
             <img
-              data-aos="fade-right"
+              data-aos="fade-bottom"
               data-aos-duration="1500"
               data-aos-delay="300"
               src="assets/img/about.svg"
@@ -40,7 +38,7 @@ const About = () => {
             />
             <div
               className="about-text"
-              data-aos="fade-left"
+              data-aos="fade-top"
               data-aos-duration="1500"
               data-aos-delay="300"
             >

@@ -1,0 +1,17 @@
+css
+/* universal tag or element default style */
+* {
+    font-family: 'Arial', sans-serif; /* Example font */
+    font-size: 16px; /* Example font size */
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default paddings */
+    box-sizing: border-box;  /* Include padding and border in element's total width and height */
+    color: #333; /* Example text color */
+    line-height: 1.6; /* Example line height */
+}
+p {
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}

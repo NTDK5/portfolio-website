@@ -19,22 +19,22 @@ const Contact = () => {
           <form>
             <div className="row">
               <div className="form-group">
-                <label for="name"> Your Name</label>
+                <label htmlFor="name">Your Name</label>
                 <input type="text" name="name" id="name" required />
               </div>
               <div className="form-group">
-                <label for="name"> Your Email</label>
-                <input type="text" name="name" id="Email" required />
+                <label htmlFor="email">Your Email</label>
+                <input type="email" name="email" id="email" required />
               </div>
             </div>
             <div className="column">
               <div className="form-group">
-                <label for="name"> Subject</label>
-                <input type="text" name="Subject" id="Subject" required />
+                <label htmlFor="subject">Subject</label>
+                <input type="text" name="subject" id="subject" required />
               </div>
               <div className="form-group">
-                <label for="name"> Message</label>
-                <textarea name="message" rows="10" required />
+                <label htmlFor="message">Message</label>
+                <textarea name="message" id="message" rows="6" required />
               </div>
               <button className="submit" type="submit">
                 Submit
